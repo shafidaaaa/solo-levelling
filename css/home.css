@@ -1,0 +1,35 @@
+:root {
+    --main-blue: #030F3F;
+    --second-purple: #3C0753;
+    --third-magenta: #720455;
+    --fourth-darkpink: #910A67;
+
+    --bluesky: #92C7CF;
+    --blueteal:  #AAD7D9;
+    --yellowlight: #FBF9F1;
+    --brownlight: #E5E1DA;
+
+    --text : #FAF5FF;
+
+}
+
+html {
+    /*background-color: var(--main-blue);*/
+    background-image: url("https://i.pinimg.com/originals/a1/ee/fc/a1eefc12242d980315da35b45c59cad2.jpg");
+    filter: brightness(50%);
+    
+}
+html[theme="dark"] body{
+    color: white;
+}
+body {
+    filter: brightness(200%);
+}
+.navbar {
+    background-color: var(--main-blue);
+    color: white;
+    
+}
+a {
+    text-decoration: none;
+}
